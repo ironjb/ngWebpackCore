@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"lib": ["es2015", "dom"],
+		"noImplicitAny": true,
+		"suppressImplicitAnyIndexErrors": true
+	}
+
+	, "exclude": [
+		"node_modules"
+		, "bin"
+		, "Controllers"
+		, "Models"
+		, "obj"
+		, "Properties"
+		, "Views"
+		, "wwwroot"
+		, "*-aot.ts"
+		, "tmp"
+	]
+
+	, "awesomeTypescriptLoaderOptions": {
+		"useWebpackText": true
+	}
+}

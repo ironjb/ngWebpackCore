@@ -1,0 +1,7 @@
+node_modules/
+tmp/
+bin/
+obj/
+wwwroot/dist/
+app/**/*.js
+app/**/*.js.map
