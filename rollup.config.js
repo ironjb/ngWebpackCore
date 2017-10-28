@@ -3,7 +3,7 @@ import commonjs			from 'rollup-plugin-commonjs';
 import uglify			from 'rollup-plugin-uglify';
 
 export default {
-	input: 'app/main-aot-rollup.js',
+	input: 'app/main-rollup-aot.js',
 	output: {
 		file: 'wwwroot/dist/rollup/build.js',		// output a single application bundle
 		format: 'iife',

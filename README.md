@@ -12,4 +12,6 @@ Some links used to help direct the result of this project:
 
 Looks like **Webpack** works great for development.  It loads the latest `.js` files without the caching problem that **SystemJS** seems to have in our **.Net** environment.
 
-However, is **Webpack** the best option for the final build?  Hard to say.  **Rollup** builds a slightly smaller file for production use, but the difference is small... at least in this project.  It may be better to see which is better with a bigger project.
+However, is **Webpack** the best option for the final build?  Hard to say.  **Rollup** builds a smaller file for production use, but is it a big enough difference?  It may be better to see which is better with a bigger project.
+
+My thinking is that it is best to use **Webpack** for development and **Rollup** for production files.

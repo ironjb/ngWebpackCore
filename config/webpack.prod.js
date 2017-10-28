@@ -12,7 +12,7 @@ module.exports = webpackMerge(commonConfig, {
 	entry: {
 		'polyfills': './app/polyfills.ts',
 		'vendor': './app/vendor.ts',
-		'app': './app/main-aot-webpack.ts'
+		'app': './app/main-webpack-aot.ts'
 	}
 
 	, module: {
@@ -30,7 +30,7 @@ module.exports = webpackMerge(commonConfig, {
 	, plugins: [
 		// AoT plugin.
 		new ngToolsWebpack.AotPlugin({
-			tsConfigPath: './tsconfig-aot-webpack.json'
+			tsConfigPath: './tsconfig-webpack-aot.json'
 		}),
 
 		new webpack.optimize.UglifyJsPlugin({

@@ -24,11 +24,12 @@
 		, "Properties"
 		, "Views"
 		, "wwwroot"
+		, "**/*-webpack-aot.ts"
 	]
 
 	, "files": [
 		"app/app.module.ts",
-		"app/main-aot-rollup.ts"
+		"app/main-rollup-aot.ts"
 	]
 
 	, "angularCompilerOptions": {

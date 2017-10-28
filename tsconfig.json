@@ -21,7 +21,7 @@
 		, "Properties"
 		, "Views"
 		, "wwwroot"
-		, "*-aot.ts"
+		, "**/*-aot.ts"
 		, "tmp"
 	]
 

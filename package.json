@@ -10,10 +10,10 @@
     "wpp": "webpack --config config/webpack.prod.js --progress --profile --bail",
     "clean:aot": "rimraf tmp/aot/*",
     "clean:dist": "rimraf wwwroot/dist/*",
-    "ngc": "ngc -p ./tsconfig-aot.json",
+    "ngc": "ngc -p ./tsconfig-webpack-aot.json",
     "build-prod": "npm run ngc && npm run wpp",
     "start:prod": "dotnet run --launch-profile ngWebpackCoreProd",
-    "aot": "tsc && ngc -p tsconfig-aot-rollup.json",
+    "aot": "tsc && ngc -p tsconfig-rollup-aot.json",
     "build-rollup": "rimraf wwwroot/dist/build/* && rollup -c rollup.config.js",
     "aot-rollup": "npm run aot && npm run build-rollup"
   },

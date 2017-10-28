@@ -24,6 +24,7 @@
 		, "Properties"
 		, "Views"
 		, "wwwroot"
+		, "**/*-rollup-aot.ts"
 	]
 
 	, "angularCompilerOptions": {
