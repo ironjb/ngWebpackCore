@@ -9,6 +9,10 @@ Some links used to help direct the result of this project:
 - [codeproject.com - Setting up Angular 2 in ASP.NET Core using Webpack](https://www.codeproject.com/Tips/1197147/Setting-up-Angular-in-ASP-NET-Core-using-Webpack)
 - [github.com/MarkPieszak/aspnetcore-angular2-universal](https://github.com/MarkPieszak/aspnetcore-angular2-universal) (I think VS2017 creates a project like this when choosing Angular/Core project)
 
+Getting **Webpack** to work with tsconfig "paths":
+
+- [stackoverflow.com - baseUrl and paths resolution using Webpack 2 and awesome-typescript-loader](https://stackoverflow.com/questions/41081851/baseurl-and-paths-resolution-using-webpack-2-and-awesome-typescript-loader)
+
 
 Looks like **Webpack** works great for development.  It loads the latest `.js` files without the caching problem that **SystemJS** seems to have in our **.Net** environment.
 
